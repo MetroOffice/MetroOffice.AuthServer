@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31808.319
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetroOffice.AuthServer.Mvc.Host", "src\MetroOffice.AuthServer.Mvc\MetroOffice.AuthServer.Mvc.Host.csproj", "{93063ADB-6402-448F-94AB-C32841199BC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetroOffice.AuthServer.EntityFrameworkCore", "src\MetroOffice.AuthServer.EntityFrameworkCore\MetroOffice.AuthServer.EntityFrameworkCore.csproj", "{2E453550-4BAD-4727-9719-9C660F71CAE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetroOffice.AuthServer.Domain", "src\MetroOffice.AuthServer.Domain\MetroOffice.AuthServer.Domain.csproj", "{10DDB1E3-DFC4-456A-8D51-76C1C7881056}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetroOffice.AuthServer.Domain.Shared", "src\MetroOffice.AuthServer.Domain.Shared\MetroOffice.AuthServer.Domain.Shared.csproj", "{89757276-735E-469E-B8E9-31318AAE7737}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93063ADB-6402-448F-94AB-C32841199BC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93063ADB-6402-448F-94AB-C32841199BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93063ADB-6402-448F-94AB-C32841199BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93063ADB-6402-448F-94AB-C32841199BC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E453550-4BAD-4727-9719-9C660F71CAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E453550-4BAD-4727-9719-9C660F71CAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E453550-4BAD-4727-9719-9C660F71CAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E453550-4BAD-4727-9719-9C660F71CAE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10DDB1E3-DFC4-456A-8D51-76C1C7881056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10DDB1E3-DFC4-456A-8D51-76C1C7881056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10DDB1E3-DFC4-456A-8D51-76C1C7881056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10DDB1E3-DFC4-456A-8D51-76C1C7881056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89757276-735E-469E-B8E9-31318AAE7737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89757276-735E-469E-B8E9-31318AAE7737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89757276-735E-469E-B8E9-31318AAE7737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89757276-735E-469E-B8E9-31318AAE7737}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2D9BB49-63D5-4AB6-91C6-A6DD8AC810B5}
+	EndGlobalSection
+EndGlobal
